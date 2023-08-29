@@ -1,4 +1,4 @@
-name: online_counsellor
+name: smart_counsellor
 description: Online Counselling section
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
