@@ -3,20 +3,20 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:online_counsellor/core/functions.dart';
-import 'package:online_counsellor/presentation/pages/home/components/appointment/appointment_page.dart';
-import 'package:online_counsellor/presentation/pages/home/components/community/community_page.dart';
-import 'package:online_counsellor/presentation/pages/home/components/home_page.dart';
-import 'package:online_counsellor/presentation/pages/home/components/session/session_page.dart';
-import 'package:online_counsellor/services/firebase_fireStore.dart';
-import 'package:online_counsellor/state/navigation_state.dart';
-import 'package:online_counsellor/styles/styles.dart';
+import '../../../core/functions.dart';
 import '../../../generated/assets.dart';
 import '../../../services/firebase_auth.dart';
+import '../../../services/firebase_fireStore.dart';
 import '../../../state/data_state.dart';
+import '../../../state/navigation_state.dart';
 import '../../../styles/colors.dart';
+import '../../../styles/styles.dart';
 import '../authentication/auth_main_page.dart';
 import '../profile/profile_page.dart';
+import 'components/appointment/appointment_page.dart';
+import 'components/community/community_page.dart';
+import 'components/home_page.dart';
+import 'components/session/session_page.dart';
 
 class HomeMainPage extends ConsumerStatefulWidget {
   const HomeMainPage({super.key});

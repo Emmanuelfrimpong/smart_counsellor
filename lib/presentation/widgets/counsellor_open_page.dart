@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:online_counsellor/core/components/widgets/custom_button.dart';
-import 'package:online_counsellor/core/components/widgets/custom_drop_down.dart';
-import 'package:online_counsellor/core/functions.dart';
-import 'package:online_counsellor/models/user_model.dart';
-import 'package:online_counsellor/presentation/pages/home/components/session/session_chat_page.dart';
-import 'package:online_counsellor/state/data_state.dart';
-import 'package:online_counsellor/styles/colors.dart';
-import 'package:online_counsellor/styles/styles.dart';
 import '../../core/components/constants/strings.dart';
+import '../../core/components/widgets/custom_button.dart';
+import '../../core/components/widgets/custom_drop_down.dart';
+import '../../core/functions.dart';
+import '../../models/user_model.dart';
+import '../../state/data_state.dart';
 import '../../state/session_state.dart';
+import '../../styles/colors.dart';
+import '../../styles/styles.dart';
+import '../pages/home/components/session/session_chat_page.dart';
 
 class CounsellorViewPage extends ConsumerWidget {
   const CounsellorViewPage({super.key});

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:online_counsellor/core/components/widgets/custom_input.dart';
-import 'package:online_counsellor/presentation/pages/home/components/session/session_item.dart';
-import 'package:online_counsellor/state/session_state.dart';
-import 'package:online_counsellor/styles/styles.dart';
+import 'package:smart_counsellor/presentation/pages/home/components/session/session_item.dart';
+import '../../../../../core/components/widgets/custom_input.dart';
 import '../../../../../state/data_state.dart';
+import '../../../../../state/session_state.dart';
 import '../../../../../styles/colors.dart';
+import '../../../../../styles/styles.dart';
 
 class SessionPage extends ConsumerStatefulWidget {
   const SessionPage({super.key});

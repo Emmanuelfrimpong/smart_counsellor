@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/core/components/widgets/smart_dialog.dart';
-import 'package:online_counsellor/core/functions.dart';
-import 'package:online_counsellor/models/appointment_model.dart';
-import 'package:online_counsellor/styles/styles.dart';
+import '../../../../../core/components/widgets/smart_dialog.dart';
+import '../../../../../core/functions.dart';
+import '../../../../../models/appointment_model.dart';
 import '../../../../../state/appointemt_data_state.dart';
 import '../../../../../state/data_state.dart';
 import '../../../../../styles/colors.dart';
+import '../../../../../styles/styles.dart';
 
 class AppointmentCard extends ConsumerStatefulWidget {
   const AppointmentCard(this.id, {super.key});

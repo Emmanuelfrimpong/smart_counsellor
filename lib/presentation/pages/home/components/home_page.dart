@@ -2,15 +2,14 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:online_counsellor/core/components/constants/strings.dart';
-import 'package:online_counsellor/core/components/widgets/custom_input.dart';
-import 'package:online_counsellor/core/functions.dart';
-import 'package:online_counsellor/presentation/widgets/category_card.dart';
-import 'package:online_counsellor/presentation/widgets/counsellor_card.dart';
-import 'package:online_counsellor/state/data_state.dart';
-import 'package:online_counsellor/styles/styles.dart';
-
+import '../../../../core/components/constants/strings.dart';
+import '../../../../core/components/widgets/custom_input.dart';
+import '../../../../core/functions.dart';
+import '../../../../state/data_state.dart';
 import '../../../../styles/colors.dart';
+import '../../../../styles/styles.dart';
+import '../../../widgets/category_card.dart';
+import '../../../widgets/counsellor_card.dart';
 
 class HomePage extends ConsumerStatefulWidget {
   const HomePage({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/models/session_messages_model.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import '../../../../../core/functions.dart';
+import '../../../../../models/session_messages_model.dart';
 import '../../../../../state/data_state.dart';
 import '../../../../../styles/colors.dart';
 import '../../../../../styles/styles.dart';

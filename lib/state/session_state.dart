@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/models/session_messages_model.dart';
 import '../core/components/widgets/smart_dialog.dart';
+import '../models/session_messages_model.dart';
 import '../models/session_model.dart';
 import '../services/firebase_fireStore.dart';
 import 'data_state.dart';

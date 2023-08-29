@@ -5,9 +5,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:online_counsellor/core/components/widgets/custom_button.dart';
-
 import '../../../core/components/constants/strings.dart';
+import '../../../core/components/widgets/custom_button.dart';
 import '../../../core/components/widgets/custom_drop_down.dart';
 import '../../../core/components/widgets/custom_input.dart';
 import '../../../state/data_state.dart';

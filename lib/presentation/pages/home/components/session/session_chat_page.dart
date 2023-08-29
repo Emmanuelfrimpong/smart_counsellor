@@ -5,20 +5,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:online_counsellor/core/components/widgets/custom_input.dart';
-import 'package:online_counsellor/core/components/widgets/smart_dialog.dart';
-import 'package:online_counsellor/core/functions.dart';
-import 'package:online_counsellor/models/session_messages_model.dart';
-import 'package:online_counsellor/models/session_model.dart';
-import 'package:online_counsellor/presentation/pages/home/components/session/message_item.dart';
-import 'package:online_counsellor/services/firebase_fireStore.dart';
-import 'package:online_counsellor/styles/styles.dart';
+import '../../../../../core/components/widgets/custom_input.dart';
+import '../../../../../core/components/widgets/smart_dialog.dart';
+import '../../../../../core/functions.dart';
+import '../../../../../models/session_messages_model.dart';
+import '../../../../../models/session_model.dart';
+import '../../../../../services/firebase_fireStore.dart';
 import '../../../../../state/data_state.dart';
 import '../../../../../state/session_state.dart';
 import '../../../../../styles/colors.dart';
+import '../../../../../styles/styles.dart';
 import 'audio_Record_Page.dart';
 import 'image_preview_page.dart';
 import 'package:record/record.dart';
+
+import 'message_item.dart';
 
 class SessionChatPage extends ConsumerStatefulWidget {
   const SessionChatPage({super.key});

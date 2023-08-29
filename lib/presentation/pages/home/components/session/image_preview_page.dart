@@ -3,14 +3,14 @@ import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/core/components/widgets/smart_dialog.dart';
-import 'package:online_counsellor/models/session_model.dart';
-import 'package:online_counsellor/styles/colors.dart';
 import '../../../../../core/components/widgets/custom_input.dart';
+import '../../../../../core/components/widgets/smart_dialog.dart';
 import '../../../../../models/session_messages_model.dart';
+import '../../../../../models/session_model.dart';
 import '../../../../../services/firebase_fireStore.dart';
 import '../../../../../services/firebase_storage.dart';
 import '../../../../../state/data_state.dart';
+import '../../../../../styles/colors.dart';
 
 class ImagePreviewPage extends ConsumerStatefulWidget {
   const ImagePreviewPage(this.imageUrls, this.session, {super.key});

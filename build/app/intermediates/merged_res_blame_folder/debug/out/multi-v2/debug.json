@@ -3390,14 +3390,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\online_counsellor\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\smart_counsellor\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",
-                        "startOffsets": "176,1105",
+                        "startOffsets": "173,1093",
                         "endLines": "11,20",
                         "endColumns": "12,12",
-                        "endOffsets": "756,1271"
+                        "endOffsets": "746,1257"
                     },
                     "to": {
                         "startLines": "164,172",
@@ -5454,14 +5454,14 @@
             "outputFile": "com.fussionTeck.online_counsellor.app-merged_res-30:/values-night-v31_values-night-v31.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\online_counsellor\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
+                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\smart_counsellor\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",
-                        "startOffsets": "176,1145",
+                        "startOffsets": "173,1132",
                         "endLines": "11,20",
                         "endColumns": "12,12",
-                        "endOffsets": "787,1311"
+                        "endOffsets": "776,1296"
                     },
                     "to": {
                         "startLines": "2,11",
@@ -6135,14 +6135,14 @@
             "outputFile": "com.fussionTeck.online_counsellor.app-merged_res-30:/values-v31_values-v31.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\online_counsellor\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\smart_counsellor\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",
-                        "startOffsets": "176,1145",
+                        "startOffsets": "173,1132",
                         "endLines": "11,20",
                         "endColumns": "12,12",
-                        "endOffsets": "787,1311"
+                        "endOffsets": "776,1296"
                     },
                     "to": {
                         "startLines": "2,11",
@@ -6373,14 +6373,14 @@
             "outputFile": "com.fussionTeck.online_counsellor.app-merged_res-30:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\online_counsellor\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\smart_counsellor\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",
-                        "startOffsets": "175,1104",
+                        "startOffsets": "172,1092",
                         "endLines": "11,20",
                         "endColumns": "12,12",
-                        "endOffsets": "755,1270"
+                        "endOffsets": "745,1256"
                     },
                     "to": {
                         "startLines": "2,10",

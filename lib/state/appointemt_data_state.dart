@@ -1,9 +1,8 @@
 // ignore_for_file: empty_catches
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/core/components/widgets/smart_dialog.dart';
-import 'package:online_counsellor/core/functions.dart';
-
+import '../core/components/widgets/smart_dialog.dart';
+import '../core/functions.dart';
 import '../models/appointment_model.dart';
 import '../services/firebase_fireStore.dart';
 import 'data_state.dart';

@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:online_counsellor/models/quotes_model.dart';
+
+import '../models/quotes_model.dart';
+
 
 class OtherServices {
   static const apiKey = "CcJ40QQqsXjc3UcfPHzNYQ==3tfeodjbnLaCBTK5";

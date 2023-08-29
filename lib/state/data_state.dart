@@ -3,27 +3,27 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:just_audio/just_audio.dart';
-import 'package:online_counsellor/models/session_model.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/core/components/constants/strings.dart';
-import 'package:online_counsellor/core/functions.dart';
-import 'package:online_counsellor/presentation/pages/authentication/sign_up_page.dart';
-import 'package:online_counsellor/services/other_services.dart';
+import '../core/components/constants/strings.dart';
 import '../core/components/widgets/smart_dialog.dart';
+import '../core/functions.dart';
 import '../models/appointment_model.dart';
 import '../models/audio_recording_model.dart';
 import '../models/quotes_model.dart';
 import '../models/session_messages_model.dart';
+import '../models/session_model.dart';
 import '../models/user_model.dart';
+import '../presentation/pages/authentication/sign_up_page.dart';
 import '../presentation/pages/home/home_main.dart';
 import '../services/firebase_auth.dart';
 import '../services/firebase_fireStore.dart';
 import '../services/firebase_storage.dart';
+import '../services/other_services.dart';
 import 'navigation_state.dart';
 
 final userProvider =

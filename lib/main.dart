@@ -3,15 +3,15 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
-import 'package:online_counsellor/presentation/pages/home/home_main.dart';
-import 'package:online_counsellor/presentation/pages/authentication/auth_main_page.dart';
-import 'package:online_counsellor/services/firebase_auth.dart';
-import 'package:online_counsellor/services/firebase_fireStore.dart';
-import 'package:online_counsellor/state/data_state.dart';
-import 'package:online_counsellor/styles/colors.dart';
+import 'package:smart_counsellor/presentation/pages/authentication/auth_main_page.dart';
+import 'package:smart_counsellor/presentation/pages/home/home_main.dart';
+import 'package:smart_counsellor/state/data_state.dart';
+import 'package:smart_counsellor/styles/colors.dart';
 import 'core/components/widgets/smart_dialog.dart';
 import 'firebase_options.dart';
 import 'models/user_model.dart';
+import 'services/firebase_auth.dart';
+import 'services/firebase_fireStore.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

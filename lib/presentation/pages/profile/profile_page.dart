@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:online_counsellor/presentation/pages/profile/view_page.dart';
+import 'package:smart_counsellor/presentation/pages/profile/view_page.dart';
 import '../../../generated/assets.dart';
 import '../../../state/data_state.dart';
 import '../../../styles/colors.dart';

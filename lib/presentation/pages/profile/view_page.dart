@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/models/user_model.dart';
-import 'package:online_counsellor/styles/styles.dart';
 import '../../../core/functions.dart';
+import '../../../models/user_model.dart';
 import '../../../services/firebase_auth.dart';
 import '../../../services/firebase_fireStore.dart';
 import '../../../state/data_state.dart';
 import '../../../styles/colors.dart';
+import '../../../styles/styles.dart';
 import '../authentication/auth_main_page.dart';
 
 class ProfileViewPage extends ConsumerStatefulWidget {

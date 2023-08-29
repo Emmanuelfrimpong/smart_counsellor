@@ -2,7 +2,8 @@
 
 import 'dart:convert';
 import 'dart:math';
-import 'package:online_counsellor/core/components/constants/strings.dart';
+
+import '../core/components/constants/strings.dart';
 
 class UserModel {
   String? id;

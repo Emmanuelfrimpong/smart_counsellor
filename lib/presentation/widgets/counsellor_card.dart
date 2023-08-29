@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/core/functions.dart';
-import 'package:online_counsellor/models/user_model.dart';
-import 'package:online_counsellor/styles/colors.dart';
+import '../../core/functions.dart';
+import '../../models/user_model.dart';
 import '../../state/data_state.dart';
+import '../../styles/colors.dart';
 import 'counsellor_open_page.dart';
 
 class CounsellorCard extends ConsumerWidget {

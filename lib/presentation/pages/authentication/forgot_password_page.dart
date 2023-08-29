@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:online_counsellor/core/components/widgets/custom_button.dart';
-import 'package:online_counsellor/core/components/widgets/custom_input.dart';
-import 'package:online_counsellor/core/components/widgets/smart_dialog.dart';
-import 'package:online_counsellor/services/firebase_auth.dart';
-import 'package:online_counsellor/state/navigation_state.dart';
 import '../../../core/components/constants/strings.dart';
+import '../../../core/components/widgets/custom_button.dart';
+import '../../../core/components/widgets/custom_input.dart';
+import '../../../core/components/widgets/smart_dialog.dart';
 import '../../../generated/assets.dart';
+import '../../../services/firebase_auth.dart';
+import '../../../state/navigation_state.dart';
 import '../../../styles/styles.dart';
 
 class ForgotPasswordPage extends ConsumerWidget {

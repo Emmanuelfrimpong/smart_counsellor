@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/core/components/widgets/custom_input.dart';
-import 'package:online_counsellor/models/questions_model.dart';
-import 'package:online_counsellor/styles/colors.dart';
 
+import '../../../../../core/components/widgets/custom_input.dart';
 import '../../../../../core/functions.dart';
 import '../../../../../models/comment_model.dart';
+import '../../../../../models/questions_model.dart';
 import '../../../../../state/comment_data_state.dart';
 import '../../../../../state/data_state.dart';
+import '../../../../../styles/colors.dart';
 import '../../../../../styles/styles.dart';
 
 class CommentPage extends ConsumerStatefulWidget {

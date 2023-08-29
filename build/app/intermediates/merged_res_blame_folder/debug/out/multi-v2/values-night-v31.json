@@ -4,14 +4,14 @@
             "outputFile": "com.fussionTeck.online_counsellor.app-mergeDebugResources-28:/values-night-v31/values-night-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\online_counsellor\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
+                    "source": "C:\\Users\\emman\\OneDrive\\Documents\\GitHub\\smart_counsellor\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",
-                        "startOffsets": "176,1145",
+                        "startOffsets": "173,1132",
                         "endLines": "11,20",
                         "endColumns": "12,12",
-                        "endOffsets": "787,1311"
+                        "endOffsets": "776,1296"
                     },
                     "to": {
                         "startLines": "2,11",

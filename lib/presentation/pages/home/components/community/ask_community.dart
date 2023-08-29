@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/core/components/widgets/custom_button.dart';
-import 'package:online_counsellor/core/components/widgets/custom_drop_down.dart';
-import 'package:online_counsellor/core/components/widgets/custom_input.dart';
-import 'package:online_counsellor/models/questions_model.dart';
-import 'package:online_counsellor/state/ask_communityData.dart';
-import 'package:online_counsellor/styles/styles.dart';
-
 import '../../../../../core/components/constants/strings.dart';
+import '../../../../../core/components/widgets/custom_button.dart';
+import '../../../../../core/components/widgets/custom_drop_down.dart';
+import '../../../../../core/components/widgets/custom_input.dart';
+import '../../../../../models/questions_model.dart';
+import '../../../../../state/ask_communityData.dart';
+import '../../../../../styles/styles.dart';
 
 class AskCommunity extends ConsumerStatefulWidget {
   const AskCommunity(this.question, {super.key});

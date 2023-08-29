@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:online_counsellor/core/components/widgets/custom_button.dart';
-import 'package:online_counsellor/core/components/widgets/custom_input.dart';
-import 'package:online_counsellor/core/functions.dart';
-import 'package:online_counsellor/presentation/pages/home/components/community/question_card.dart';
-import 'package:online_counsellor/state/ask_communityData.dart';
-import 'package:online_counsellor/styles/styles.dart';
-
+import 'package:smart_counsellor/presentation/pages/home/components/community/question_card.dart';
+import '../../../../../core/components/widgets/custom_button.dart';
+import '../../../../../core/components/widgets/custom_input.dart';
+import '../../../../../core/functions.dart';
+import '../../../../../state/ask_communityData.dart';
 import '../../../../../styles/colors.dart';
+import '../../../../../styles/styles.dart';
 import 'ask_community.dart';
 
 class CommunityPage extends ConsumerStatefulWidget {

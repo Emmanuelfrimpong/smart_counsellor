@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:online_counsellor/core/components/widgets/smart_dialog.dart';
-import 'package:online_counsellor/models/session_model.dart';
-import 'package:online_counsellor/presentation/pages/home/components/session/session_chat_page.dart';
+import 'package:smart_counsellor/presentation/pages/home/components/session/session_chat_page.dart';
+import '../../../../../core/components/widgets/smart_dialog.dart';
 import '../../../../../core/functions.dart';
+import '../../../../../models/session_model.dart';
 import '../../../../../state/data_state.dart';
 import '../../../../../state/session_state.dart';
 import '../../../../../styles/colors.dart';

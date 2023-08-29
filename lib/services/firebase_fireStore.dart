@@ -1,12 +1,12 @@
 // ignore_for_file: file_names
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:online_counsellor/models/appointment_model.dart';
-import 'package:online_counsellor/models/chat_model.dart';
-import 'package:online_counsellor/models/comment_model.dart';
-import 'package:online_counsellor/models/questions_model.dart';
-import 'package:online_counsellor/models/session_messages_model.dart';
-import 'package:online_counsellor/models/session_model.dart';
+import '../models/appointment_model.dart';
+import '../models/chat_model.dart';
+import '../models/comment_model.dart';
+import '../models/questions_model.dart';
+import '../models/session_messages_model.dart';
+import '../models/session_model.dart';
 import '../models/user_model.dart';
 
 class FireStoreServices {
